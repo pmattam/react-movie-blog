@@ -1,0 +1,93 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+
+.allMoviesVdom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aMovieVdom {
+    height: 250px;
+    width: 500px;
+    margin: 4px 4px 4px 4px;
+    background-color: seashell;
+    font-size: 15px;
+    overflow: scroll;
+    text-align: center;
+    border: solid 1px grey;
+}
+
+.add-div {
+    display: flex;
+    justify-content: center;
+    margin: 4px 4px 4px 4px;
+}
+
+.addMovieButton {
+    height: 50px;
+    width: 150px;
+    background-color: seashell;
+    border: solid 1px grey;
+    font-size: 15px;
+    color: darkolivegreen;
+}
+
+.addDelButton,
+.addEditButton {
+    height: 40px;
+    width: 80px;
+    margin: 2px 2px 2px 2px;
+    background-color: seashell;
+    border: solid 1px grey;
+    font-size: 15px;
+    color: darkolivegreen;
+}
+
+.movie-form {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title,
+.director {
+    height: 50px;
+    width: 490px;
+}
+
+.plot {
+    height: 50px;
+    width: 490px;
+}
+
+.copyright {
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
